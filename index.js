@@ -12,8 +12,8 @@ function find() {
 
 //Bài 2
 function calcEx2() {
-    var numX = document.getElementById("txtX").value;
-    var numN = document.getElementById("txtN").value;
+    var numX = +document.getElementById("txtX").value;
+    var numN = +document.getElementById("txtN").value;
     var sum = 0;
     var resultEx2 = document.getElementById("resultEx2");
 
@@ -25,7 +25,7 @@ function calcEx2() {
 
 //Bài 3
 function calcEx3 () {
-    var numNEx3 = document.getElementById("txtNEx3").value;
+    var numNEx3 = +document.getElementById("txtNEx3").value;
     var resultEx3 = document.getElementById("resultEx3");
     var res = 1;
 
